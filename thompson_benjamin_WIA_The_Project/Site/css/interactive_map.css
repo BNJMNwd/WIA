@@ -1,0 +1,94 @@
+body {
+    font-family: 'Armata', sans-serif;
+}
+
+
+/*CSS FOR INTERACTIVE MAP */
+
+
+/*  City Info   */
+.city_detail_container { display: none; }
+.city_detail_container .city_detail { width: 300px; border: 1px solid #ccc; }
+
+
+/*  Interactive Map Container */
+.map_container {
+    text-align: left;
+	background-image: url(../images/fl_map.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 500px;
+	width: 999px;
+	position: relative;
+	color: #fff;
+	font-size: 12px;
+	margin: 50px auto 60px  auto;
+    outline: 5px solid #0071bb;
+
+}
+
+.map_container .clear_both { clear: both; line-height: 1px; }
+
+.map_container .county_info h2 {
+    text-align: left;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.map_container .county_info h3 {
+	margin: 0px 0px 12px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #2c3748;
+}
+
+.map_container p { margin: 0px 0px 12px 0px; }
+
+/* Dots coding */
+.map_container a, .map_container a:visited { color: #AA0000; margin: 0px 10px 0px 0px; }
+.map_container a.dot {
+	background-image: url(../images/dots.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+}
+.map_container a.dot.selected {
+	background-position: 0px -40px;
+}
+.map_container a.dot:hover {
+	background-position: 0px -20px;
+}
+
+.map_container .form_counties {
+	position: absolute;
+	top: 460px;
+	left: 20px;
+}
+
+.map_container .detail_container {
+	position: absolute;
+	top: 25px;
+	left: 510px;
+	width: 240px;
+	height: 260px;
+}
+
+.map_container .city_detail {
+	position: absolute;
+	top: 0px;
+	width: 190px;
+	padding: 10px 0px 0px 12px;
+	border-left: 1px solid #0071bb;
+	border-top: 1px solid #0071bb;
+}
+
+.map_container .city_detail .county_info {
+	width: 130px;
+	float: left;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Service Locations</title>
+		<link rel="stylesheet" type="text/css" href="css/interactive_map.css" />
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/interactive_map.js"></script>
+
+
+    </head>
+	<body>
+
+
+        <header>
+            <h1><a href="index.html"><img src="images/logo.png" alt="Logo" title="Logo"></a></h1>
+            <h2><p>A Britt Indoor Air Quality Solution</p></h2>
+
+            <section id="blue">
+                <div id='cssmenu'>
+                    <ul>
+                        <li><a href='services.html'><span>Services</span></a></li>
+                        <li><a href="about.html"><span>About Us</span></a></li>
+                        <li class='active'><a href="locations.html"><span>Service Areas</span></a></li>
+                        <li><a href="filter.html"><span>AC Facts</span></a></li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+
+
+        <article><h3>Check out below to see our service areas</h3>
+
+		<div class="map_container">
+
+
+			<!-- Dots -->
+			<a class="dot" style="top:120px;  left:325px;" counties="orange" city="orlando"></a>
+			<a class="dot" style="top:105px;  left:405px;"  counties="brevard" city="titusville"></a>
+            <a class="dot" style="top:265px; left:470px;" counties="indian" city="vero_beach" ></a>
+            <a class="dot" style="top:211px;  left:170px;" counties="hillsborough" city="tampa"></a>
+            <a class="dot" style="top:205px; left:260px;" counties="polk" city="lakeland"></a>
+
+
+			
+			<!-- Form -->
+			<form id="mapForm" name="mapForm" class="form_counties" method="post" action="">
+				<select name="counties" id="counties">
+					<option value="orange">Orange</option>
+					<option value="hillsborough">Hillsborough</option>
+					<option value="indian">Indian River</option>
+					<option value="brevard">Brevard</option>
+					<option value="polk">Polk</option>
+					<option value="ALL" selected="selected">Show all counties</option>
+				</select>
+			</form>
+
+			<!-- City details -->
+			<div class="detail_container">
+				<!-- City -->
+				<div class="city_detail">
+					<h2>Select a city</h2>
+                        <p>Select a city to get more information that we offer in each area.
+                            Please note that we service all of Central Florida and this is just a guide to
+                            highlight our most common service areas</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="city_detail_container">
+
+			<!-- City -->
+			<div class="city_detail" id="tampa">
+				<div class="county_info">
+					<h2>Tampa</h2>
+                        <p>In Tampa we can meet any of you HVAC needs from unit replacement to construction to duct cleaning</p>
+				</div>
+			</div>
+
+			<!-- City -->
+			<div class="city_detail" id="lakeland">
+				<div class="county_info">
+					<h2>Lakeland</h2>
+                        <P>In Polk Country we specialize in residential and commercial duct cleaning.</P>
+				</div>
+			</div>
+
+
+			<!-- City -->
+			<div class="city_detail" id="orlando">
+				<div class="county_info">
+					<h2>Orlando</h2>
+                        <p>In Orlando we specialize in new construction and private residence AC unit replacement. </p>
+				</div>
+				<div class="clear_both"></div>
+			</div>
+
+
+			<!-- City -->
+			<div class="city_detail" id="titusville">
+				<div class="county_info">
+					<h2>Titusville</h2>
+                        <p>Titusville is where our entire buisness started. This is the center point of all our operations.</p>
+				</div>
+				<div class="clear_both"></div>
+			</div>
+
+
+			<!-- City -->
+			<div class="city_detail" id="vero_beach">
+				<div class="county_info">
+					<h2>Vero Beach</h2>
+                        <p>In Vero Beach we can meet all of you residential HVAC needs, and most cases we can respond to any emergency needs in less than 90 minutes</p>
+				</div>
+				<div class="clear_both"></div>
+			</div>
+
+
+
+
+			</div><!-- end of map container -->
+        </article>
+
+        <footer>
+
+            <section id="footer">
+
+                <section id="footer_contact">
+                    <p class="foot_big"><a href="index.html">Dirty Duct Man</a></p>
+                    <p>A Britt IAQ Solution | LLC</p>
+                    <p>Tom Britt | Owner</p>
+                    <p>NADCA Certified</p>
+                </section>
+
+
+                <div class="footer_nav">
+                    <ul>
+                        <li><a href='services.html'>Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="locations.html">Service Areas</a></li>
+                        <li><a href="filter.html">AC Facts</a></li>
+                    </ul>
+                </div>
+
+            </section>
+
+
+
+        </footer>
+
+
+
+
+	</body>
+</html>

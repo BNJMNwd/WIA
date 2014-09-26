@@ -1,0 +1,72 @@
+/*temp form file*/
+
+/*
+input[type="submit"]{
+    width: 20%;
+    background-color: rgba(0,0,0,0);
+    font-size: 1.2em;
+    -moz-box-shadow:    0, 0, 0 rgba(0,0,0,0);
+    -webkit-box-shadow: 0, 0, 0 rgba(0,0,0,0);
+    box-shadow:         0, 0, 0 rgba(0,0,0,0);
+    border: none;
+    color: #0071bb;
+
+}
+
+input[type="text"]{
+    background-color: rgba(0,0,0,0);
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+input[type="radio"]{
+    font-size: .8em;
+    margin-right: 5px;
+}
+*/
+
+#quote {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Armata', sans-serif;
+}
+
+#quote p {
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+
+#quote input[type=text] {
+    width: 300px;
+    background-color: rgba(0, 113, 187, 0.3);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 2px;
+}
+
+#quote [type=text]:focus, input:focus {
+    border: 1px solid #fff100;
+
+}
+
+#quote label {
+    float: left;
+    padding-bottom: 10px;
+
+}
+
+.clear_form {
+    clear: left;
+
+}
+
+
+
+
+#small_form    {
+}
